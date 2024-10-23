@@ -44,3 +44,8 @@ variable "tfe_organization" {
 variable "tfe_workspace_name" {
   type = string
 }
+
+variable "playbook_repository" {
+  type        = string
+  description = "Use https://github.com/ned1313/ansible-playbook-nginx.git"
+}
