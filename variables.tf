@@ -44,3 +44,7 @@ variable "tfe_organization" {
 variable "tfe_workspace_name" {
   type = string
 }
+
+variable "playbook_repository" {
+  type = string
+}
